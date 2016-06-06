@@ -19,11 +19,8 @@ _Nennen Sie ein Beispiel für Daten in Ihrem Umfeld, die gestreamt verarbeitet 
 
 ### Assignment 2: Big Data in Ihrem Umfeld (4 Punkte)
 _Entscheiden Sie sich für eine Data Engineering Plattform. Apache Flink oder Apache Spark. Installieren Sie die auf Ihrem Arbeitsgerät._
-
 _• 1. Punkt: Erklären Sie ihre Entscheidung_
-
 _• 2. Punkte: Schicken Sie einen Screenshot der installierten Umgebung mit_
-
 _• 1. Punkt: Beschreiben Sie Ihre Toolchain, die Sie mit dem Framework nutzen würden (z.B:IDE)_
 
 Ich habe mich für Apache Flink entschieden. Ich finde beide Plattformen interresant, bei Apache Flink gab es das Tutorial der Vorlesung, das für die installation befolgt wurde.
@@ -38,7 +35,8 @@ _Schreiben Sie ein simples Program mit dem Framework (z.B. Helloworld) und laden
 _• 2 Punkte für Programm_
 _• 2 Punkte, wenn das Programm auch ausführbar ist._
 
-Als HelloWorld Beispiel würde das WordCount Example von flink implementiert. Dabei handelt es sich um ein Java Programme welches mit Maven gebildet wird. Die nötigen Abhängigkeiten zu Apache Flink würden mit Maven aufgelöst. Es wurde das WordCount Beispiel implementiert und ein CharCount. Das Mainprogramm ist [hier](flink-example/src/main/java/Main.java). Die Tokenzier für Word- und CharCount liegen [hier](flink-example/src/main/java/Tokenizer.java).
+Als HelloWorld Beispiel würde das WordCount Example von [flink](https://github.com/apache/flink/blob/master/flink-examples/flink-examples-batch/src/main/java/org/apache/flink/examples/java/wordcount/WordCount.java)
+ implementiert. Dabei handelt es sich um ein Java Programme welches mit Maven gebildet wird. Die nötigen Abhängigkeiten zu Apache Flink würden mit Maven aufgelöst. Es wurde das WordCount Beispiel implementiert und ein CharCount. Das Mainprogramm ist [hier](flink-example/src/main/java/Main.java). Die Tokenzier für Word- und CharCount liegen [hier](flink-example/src/main/java/Tokenizer.java).
 
 ## Data Science
 
@@ -54,10 +52,10 @@ _Sie bekommen den Auftrag, sich mit einer Data Science Technologie zu arbeiten. 
 Ich würde als Data Science Technologie Python wählen. Da diese technologie sehr vielseitig eingesetzt werden kann und kann man sich schon in eine Technologie einliest, macht es sinn eine zu wählen, die vielseitig eingesetzt werden kann.
 
 ### Assignment 2: Technologien (4 Punkte)
-_Entscheiden Sie sich für eine Data Science Plattform. R oder Python Installieren Sie die auf Ihrem Arbeitsgerät.
-• 1. Punkt: Begründen Sie ihre Entscheidung (Warum ziehen Sie persönlich aus ihrer Ausgangssituation die eine Technologie der anderen vor).
-• 2. Punkte: Schicken Sie einen Screenshot der installierten Umgebung mit
-• 1. Punkt: Beschreiben Sie Ihre Toolchain, die Sie mit dem Framework nutzen (z.B. IDE)_
+_Entscheiden Sie sich für eine Data Science Plattform. R oder Python Installieren Sie die auf Ihrem Arbeitsgerät._
+_• 1. Punkt: Begründen Sie ihre Entscheidung (Warum ziehen Sie persönlich aus ihrer Ausgangssituation die eine Technologie der anderen vor)._
+_• 2. Punkte: Schicken Sie einen Screenshot der installierten Umgebung mit_
+_• 1. Punkt: Beschreiben Sie Ihre Toolchain, die Sie mit dem Framework nutzen (z.B. IDE)_
 
 Ich habe mich für Python entschieden, da ich diese ohnehin bereits lernen wollte da diese, wie in Assignment 1 1.2 beschrieben sehr vielseitig einsetzbar ist.
 Python kann es unter www.python.org -> download heruntergeladen werden.

@@ -1,3 +1,5 @@
+package at.se15m015.bld.count;
+
 import org.apache.flink.api.common.functions.FlatMapFunction;
 import org.apache.flink.api.java.tuple.Tuple2;
 import org.apache.flink.util.Collector;
