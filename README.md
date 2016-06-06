@@ -13,8 +13,9 @@ _Schauen Sie sich in Ihrem Umfeld um. FH Technikum oder Ihr Job. Nennen Sie mind
 #### 1.2 (2 Punkte)
 _Nennen Sie ein Beispiel für Daten in Ihrem Umfeld, die gestreamt verarbeitet werden, nennen Sie ein Beispiel für Daten in Ihrem Umfeld, die über Batchverarbeitung verarbeitet werden._
 
-**Beispiel für gestreamte Daten:**
-**Beispiel für Batchverarbeitete Daten:**
+**Beispiel für gestreamte Daten:** Ich habe einmal log.io in einem Projekt eingesetzt. Bei diesem Loggingframework werden die Logdatein gestream.
+
+**Beispiel für Batchverarbeitete Daten:** Die automatischen Datenbankbackups sind Batchverarbeitete Daten. Ein weiteres Beispiel sind die Daten die in den unterschiedlichen Entwiicklungs Environments (Dev, Test, Beta, Prod) benötigt werden, auch diese werden mittels Batchverarbeitung kopiert.
 
 ### Assignment 2: Big Data in Ihrem Umfeld (4 Punkte)
 _Entscheiden Sie sich für eine Data Engineering Plattform. Apache Flink oder Apache Spark. Installieren Sie die auf Ihrem Arbeitsgerät.
@@ -22,6 +23,12 @@ _Entscheiden Sie sich für eine Data Engineering Plattform. Apache Flink oder A
 • 2. Punkte: Schicken Sie einen Screenshot der installierten Umgebung mit
 • 1. Punkt: Beschreiben Sie Ihre Toolchain, die Sie mit dem Framework nutzen würden (z.B:
 IDE)_
+Ich habe mich für Apache Flink entschieden. Ich finde beide Plattformen interresant, bei Apache Flink gab es das Tutorial der Vorlesung, das für die installation befolgt wurde.
+
+![Alt text](flink_installed.png?raw=true "Dashboard von Apache Flink")
+Flink kann auf der Downloadseite https://flink.apache.org/downloads.html heruntergeladen werden. Gestartet wird es mit bin/start-local.sh. Auf das Dashboard kann mit localhost:8081 zugegriffen werden.
+
+
 
 ### Assignment 3: Big Data in Ihrem Umfeld (4 Punkte)
 _Schreiben Sie ein simples Program mit dem Framework (z.B. Helloworld) und laden Sie es hoch.
@@ -52,7 +59,8 @@ Python kann es unter www.python.org -> download heruntergeladen werden.
 ![Alt text](python_downlaod.png?raw=true "Downloadseite von python")
 Auf einem Mac ist Python bereits vorinstalliert.
 ![Alt text](python_installed.png "Installierte Arbeitsumgebung auf dem Mac")
-Ich werde die Python scripte, ganz simple mit vim erstellen, damit ich dies auch auf Machinen erstellt werden können, auf denen keine GUI vorhanden ist (Serverinstancen). 
+Die Python scripte werden simple mit vim erstellen, damit können diese auch auf Machinen ohne GUI erstellt werden. ( zb: Serverinstancen) 
+
 ### Assignment 3: Big Science (4 Punkte)
 _Der Cheatsheet auf http://scikit-learn.org/stable/tutorial/machine_learning_map/ ist eine einfache Anleitung, wie man den richtigen Algorithmus zum richtigen Data Science Problem findet.
 Schauen Sie in Google nach und lernen Sie classificatiom, regression, clusting und dimensional reduction unterscheiden.
