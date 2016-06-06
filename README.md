@@ -18,12 +18,13 @@ _Nennen Sie ein Beispiel für Daten in Ihrem Umfeld, die gestreamt verarbeitet 
 **Beispiel für Batchverarbeitete Daten:** Die automatischen Datenbankbackups sind Batchverarbeitete Daten. Ein weiteres Beispiel sind die Daten die in den unterschiedlichen Entwiicklungs Environments (Dev, Test, Beta, Prod) benötigt werden, auch diese werden mittels Batchverarbeitung kopiert.
 
 ### Assignment 2: Big Data in Ihrem Umfeld (4 Punkte)
-_Entscheiden Sie sich für eine Data Engineering Plattform. Apache Flink oder Apache Spark. Installieren Sie die auf Ihrem Arbeitsgerät.
-• 1. Punkt: Erklären Sie ihre Entscheidung
+_Entscheiden Sie sich für eine Data Engineering Plattform. Apache Flink oder Apache Spark. Installieren Sie die auf Ihrem Arbeitsgerät._
 
-• 2. Punkte: Schicken Sie einen Screenshot der installierten Umgebung mit
+_• 1. Punkt: Erklären Sie ihre Entscheidung_
 
-• 1. Punkt: Beschreiben Sie Ihre Toolchain, die Sie mit dem Framework nutzen würden (z.B:IDE)_
+_• 2. Punkte: Schicken Sie einen Screenshot der installierten Umgebung mit_
+
+_• 1. Punkt: Beschreiben Sie Ihre Toolchain, die Sie mit dem Framework nutzen würden (z.B:IDE)_
 
 Ich habe mich für Apache Flink entschieden. Ich finde beide Plattformen interresant, bei Apache Flink gab es das Tutorial der Vorlesung, das für die installation befolgt wurde.
 
