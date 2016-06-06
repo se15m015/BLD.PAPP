@@ -34,9 +34,11 @@ Flink kann auf der Downloadseite https://flink.apache.org/downloads.html herunte
 Da Apache Flink Progamme mit Java erstellt werden können würde ich IntelliJ als Entwicklungsumgebung wählen. Die nötigen Abhängikeiten können mit Maven eingebunden werden.
 
 ### Assignment 3: Big Data in Ihrem Umfeld (4 Punkte)
-_Schreiben Sie ein simples Program mit dem Framework (z.B. Helloworld) und laden Sie es hoch.
-• 2 Punkte für Programm
-• 2 Punkte, wenn das Programm auch ausführbar ist._
+_Schreiben Sie ein simples Program mit dem Framework (z.B. Helloworld) und laden Sie es hoch._
+_• 2 Punkte für Programm_
+_• 2 Punkte, wenn das Programm auch ausführbar ist._
+
+Als HelloWorld Beispiel würde das WordCount Example von flink implementiert. Dabei handelt es sich um ein Java Programme welches mit Maven gebildet wird. Die nötigen Abhängigkeiten zu Apache Flink würden mit Maven aufgelöst. Es wurde das WordCount Beispiel implementiert und ein CharCount. Das Mainprogramm ist [hier](flink-example/src/main/java/Main.java). Die Tokenzier für Word- und CharCount liegen [hier](flink-example/src/main/java/Tokenizer.java).
 
 ## Data Science
 
