@@ -52,6 +52,8 @@ Schreiben Sie ein simples Program mit dem Framework (z.B. Helloworld) und laden 
 
 Als HelloWorld Beispiel würde das WordCount Example von [flink](https://github.com/apache/flink/blob/master/flink-examples/flink-examples-batch/src/main/java/org/apache/flink/examples/java/wordcount/WordCount.java)
  implementiert. Dabei handelt es sich um ein Java Programme welches mit Maven gebildet wird. Die nötigen Abhängigkeiten zu Apache Flink würden mit Maven aufgelöst. Es wurde das WordCount Beispiel implementiert und ein CharCount. Das Mainprogramm ist [hier](flink-example/src/main/java/Main.java). Die Tokenzier für Word- und CharCount liegen [hier](flink-example/src/main/java/Tokenizer.java).
+ 
+ Um das programm auszuführen einfach in den Ordner `flink-example\target` wechseln (`cd flink-example\target`) und anschließend folgenden befehl auszuführen: `java -jar flink-word-char-count.jar`. Java sollte installiert sein damit dies funktioniert.
 
 ## Data Science
 

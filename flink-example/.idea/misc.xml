@@ -38,6 +38,14 @@
       <property name="caretWidth" class="java.lang.Integer" />
     </properties>
   </component>
+  <component name="EclipseCodeFormatter">
+    <option name="defaultSettings" value="true" />
+    <option name="formatter" value="ECLIPSE" />
+    <option name="id" value="1460619352661" />
+    <option name="name" value="default" />
+    <option name="pathToConfigFileJava" value="D:/tools/BETandWIN_eclipse_Export_All.xml" />
+    <option name="selectedJavaProfile" value="BETandWIN" />
+  </component>
   <component name="EntryPointsManager">
     <entry_points version="2.0" />
   </component>
