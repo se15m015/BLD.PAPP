@@ -4,30 +4,35 @@
 
 ### Assignment 1: Big Data in Ihrem Umfeld (4 Punkte)
 
-~~~
 #### 1.1 (2 Punkte)
-_Schauen Sie sich in Ihrem Umfeld um. FH Technikum oder Ihr Job. Nennen Sie mindestens ein Beispiel für Daten, die schemalos (unstrukturiert) sind und mindestens ein Bespiel für Daten, die strukturiert (schematisch) sind._
+~~~
+Schauen Sie sich in Ihrem Umfeld um. FH Technikum oder Ihr Job. Nennen Sie mindestens ein Beispiel für Daten, 
+die schemalos (unstrukturiert) sind und mindestens ein Bespiel für Daten, die strukturiert (schematisch) sind.
 ~~~
 
 **Schemalose Daten (unstrukturiert):** Wir benutzen in der Firma schemalose Daten, zum analysieren der Logfiles. Mit Logstash wird ein eine Elastic Search DB geschrieben. Die Daten werden mit Kibana angezeigt.
 
 **Schematische Daten (stukruriert):** Die Kundendatenbank ist bei uns eine strukturierte Datenbank (SQL).
 
-~~~
+
 #### 1.2 (2 Punkte)
-_Nennen Sie ein Beispiel für Daten in Ihrem Umfeld, die gestreamt verarbeitet werden, nennen Sie ein Beispiel für Daten in Ihrem Umfeld, die über Batchverarbeitung verarbeitet werden._
+~~~
+Nennen Sie ein Beispiel für Daten in Ihrem Umfeld, die gestreamt verarbeitet werden, 
+nennen Sie ein Beispiel für Daten in Ihrem Umfeld, die über Batchverarbeitung verarbeitet werden.
 ~~~
 
 **Beispiel für gestreamte Daten:** Es gibt ein das Framework log.io. Bei diesem Loggingframework werden die Logdatein gestream.
 
 **Beispiel für Batchverarbeitete Daten:** Die automatischen Datenbankbackups sind Batchverarbeitete Daten. Ein weiteres Beispiel sind die Daten die in den unterschiedlichen Entwiicklungs Environments (Dev, Test, Beta, Prod) benötigt werden, auch diese werden mittels Batchverarbeitung kopiert.
 
-~~~
+
 ### Assignment 2: Big Data in Ihrem Umfeld (4 Punkte)
-_Entscheiden Sie sich für eine Data Engineering Plattform. Apache Flink oder Apache Spark. Installieren Sie die auf Ihrem Arbeitsgerät._
-_• 1. Punkt: Erklären Sie ihre Entscheidung_
-_• 2. Punkte: Schicken Sie einen Screenshot der installierten Umgebung mit_
-_• 1. Punkt: Beschreiben Sie Ihre Toolchain, die Sie mit dem Framework nutzen würden (z.B:IDE)_
+~~~
+Entscheiden Sie sich für eine Data Engineering Plattform. Apache Flink oder Apache Spark.
+Installieren Sie die auf Ihrem Arbeitsgerät.
+• 1. Punkt: Erklären Sie ihre Entscheidung
+• 2. Punkte: Schicken Sie einen Screenshot der installierten Umgebung mit
+• 1. Punkt: Beschreiben Sie Ihre Toolchain, die Sie mit dem Framework nutzen würden (z.B:IDE)
 ~~~
 
 Ich habe mich für Apache Flink entschieden. Ich finde beide Plattformen interresant, bei Apache Flink gab es das Tutorial der Vorlesung, das für die installation befolgt wurde.
@@ -37,11 +42,12 @@ Flink kann auf der Downloadseite https://flink.apache.org/downloads.html herunte
 
 Da Apache Flink Progamme mit Java erstellt werden können würde ich IntelliJ als Entwicklungsumgebung wählen. Die nötigen Abhängikeiten können mit Maven eingebunden werden.
 
-~~~
 ### Assignment 3: Big Data in Ihrem Umfeld (4 Punkte)
-_Schreiben Sie ein simples Program mit dem Framework (z.B. Helloworld) und laden Sie es hoch._
-_• 2 Punkte für Programm_
-_• 2 Punkte, wenn das Programm auch ausführbar ist._
+
+~~~
+Schreiben Sie ein simples Program mit dem Framework (z.B. Helloworld) und laden Sie es hoch.
+• 2 Punkte für Programm_
+• 2 Punkte, wenn das Programm auch ausführbar ist.
 ~~~
 
 Als HelloWorld Beispiel würde das WordCount Example von [flink](https://github.com/apache/flink/blob/master/flink-examples/flink-examples-batch/src/main/java/org/apache/flink/examples/java/wordcount/WordCount.java)
@@ -51,26 +57,33 @@ Als HelloWorld Beispiel würde das WordCount Example von [flink](https://github.
 
 ### Assignment 1: Technologien (4 Punkte)
 
-~~~
+
 #### 1.1 (2 Punkte)
-_Sie haben in der LVA zwei Frameworks kennengelernt (R und Python). Nennen Sie zwei weitere Technologien, um Daten zu analysieren (müssen nicht open source sein)_
+
+~~~
+Sie haben in der LVA zwei Frameworks kennengelernt (R und Python). Nennen Sie zwei weitere Technologien, 
+um Daten zu analysieren (müssen nicht open source sein)
 ~~~
 
 Neben R und Python gibt es noch Ruby, Perl, Kibana, tableau und d3.
 
 ~~~
 #### 1.2 (2 Punkte)
-_Sie bekommen den Auftrag, sich mit einer Data Science Technologie zu arbeiten. Nennen Sie Technologie, die ihnen auf dem ersten Blick am besten für Sie ersscheint und begründen Sie das!_
+Sie bekommen den Auftrag, sich mit einer Data Science Technologie zu arbeiten. Nennen Sie Technologie, 
+die ihnen auf dem ersten Blick am besten für Sie ersscheint und begründen Sie das!
 ~~~
 
 Ich würde als Data Science Technologie Python wählen. Da diese technologie sehr vielseitig eingesetzt werden kann und kann man sich schon in eine Technologie einliest, macht es sinn eine zu wählen, die vielseitig eingesetzt werden kann.
 
-~~~
+
 ### Assignment 2: Technologien (4 Punkte)
-_Entscheiden Sie sich für eine Data Science Plattform. R oder Python Installieren Sie die auf Ihrem Arbeitsgerät._
-_• 1. Punkt: Begründen Sie ihre Entscheidung (Warum ziehen Sie persönlich aus ihrer Ausgangssituation die eine Technologie der anderen vor)._
-_• 2. Punkte: Schicken Sie einen Screenshot der installierten Umgebung mit_
-_• 1. Punkt: Beschreiben Sie Ihre Toolchain, die Sie mit dem Framework nutzen (z.B. IDE)_
+~~~
+Entscheiden Sie sich für eine Data Science Plattform. 
+R oder Python Installieren Sie die auf Ihrem Arbeitsgerät.
+• 1. Punkt: Begründen Sie ihre Entscheidung (Warum ziehen Sie 
+		persönlich aus ihrer Ausgangssituation die eine Technologie der anderen vor).
+• 2. Punkte: Schicken Sie einen Screenshot der installierten Umgebung mit
+• 1. Punkt: Beschreiben Sie Ihre Toolchain, die Sie mit dem Framework nutzen (z.B. IDE)
 ~~~
 
 Ich habe mich für Python entschieden, da ich diese ohnehin bereits lernen wollte da diese, wie in Assignment 1 1.2 beschrieben sehr vielseitig einsetzbar ist.
@@ -80,11 +93,17 @@ Auf einem Mac ist Python bereits vorinstalliert.
 ![Alt text](python_installed.png "Installierte Arbeitsumgebung auf dem Mac")
 Die Python scripte werden simple mit vim erstellen, damit können diese auch auf Machinen ohne GUI erstellt werden. ( zb: Serverinstancen) 
 
-~~~
+
 ### Assignment 3: Big Science (4 Punkte)
-_Der Cheatsheet auf http://scikit-learn.org/stable/tutorial/machine_learning_map/ ist eine einfache Anleitung, wie man den richtigen Algorithmus zum richtigen Data Science Problem findet.
-Schauen Sie in Google nach und lernen Sie classificatiom, regression, clusting und dimensional reduction unterscheiden.
-Nennen Sie ein Beispiel aus ihrem Umfeld, wo Sie mit dem Algorithmus zu tun haben. Das kann ein Beispiel sein, wie: Wenn Sie bei Amazon einkaufen. Wenn Sie von einem Marketinginstitut angerufen werden, etc._
+
+~~~
+Der Cheatsheet auf http://scikit-learn.org/stable/tutorial/machine_learning_map/ 
+ist eine einfache Anleitung, wie man den richtigen Algorithmus zum richtigen 
+Data Science Problem findet. Schauen Sie in Google nach und lernen Sie 
+classificatiom, regression, clusting und dimensional reduction unterscheiden.
+Nennen Sie ein Beispiel aus ihrem Umfeld, wo Sie mit dem Algorithmus zu tun haben. 
+Das kann ein Beispiel sein, wie: Wenn Sie bei Amazon einkaufen. 
+Wenn Sie von einem Marketinginstitut angerufen werden, etc.
 ~~~
 
 **classification (supervised)** Bei classification geht es darum neue Beobachtungen in den eine Kategorie einzuordnen. Diese Einordnung wird auf grund von einem Trainingset vorgenommen. Dies bedeutet das die Trainningsdaten schon vor der Einordnung zur Verfügung stehen.
