@@ -21,9 +21,9 @@ Nennen Sie ein Beispiel für Daten in Ihrem Umfeld, die gestreamt verarbeitet w
 nennen Sie ein Beispiel für Daten in Ihrem Umfeld, die über Batchverarbeitung verarbeitet werden.
 ~~~
 
-**Beispiel für gestreamte Daten:** Es gibt ein das Framework log.io. Bei diesem Loggingframework werden die Logdatein gestream.
+**Beispiel für gestreamte Daten:** Logdaten können gestreamt werden. Bei dem Framework log.io (logio.org) ist dies der fall.
 
-**Beispiel für Batchverarbeitete Daten:** Die automatischen Datenbankbackups sind Batchverarbeitete Daten. Ein weiteres Beispiel sind die Daten die in den unterschiedlichen Entwiicklungs Environments (Dev, Test, Beta, Prod) benötigt werden, auch diese werden mittels Batchverarbeitung kopiert.
+**Beispiel für Batchverarbeitete Daten:** Die automatischen Datenbankbackups sind Batchverarbeitete Daten. Ein weiteres Beispiel sind die Daten die in den unterschiedlichen Entwicklungs Environments (Dev, Test, Beta, Prod) benötigt werden, auch diese werden mittels Batchverarbeitung kopiert.
 
 
 ### Assignment 2: Big Data in Ihrem Umfeld (4 Punkte)
@@ -51,7 +51,7 @@ Schreiben Sie ein simples Program mit dem Framework (z.B. Helloworld) und laden 
 ~~~
 
 Als HelloWorld Beispiel würde das WordCount Example von [flink](https://github.com/apache/flink/blob/master/flink-examples/flink-examples-batch/src/main/java/org/apache/flink/examples/java/wordcount/WordCount.java)
- implementiert. Dabei handelt es sich um ein Java Programme welches mit Maven gebildet wird. Die nötigen Abhängigkeiten zu Apache Flink würden mit Maven aufgelöst. Es wurde das WordCount Beispiel implementiert und ein CharCount. Das Mainprogramm ist [hier](flink-example/src/main/java/Main.java). Die Tokenzier für Word- und CharCount liegen [hier](flink-example/src/main/java/Tokenizer.java).
+ implementiert. Dabei handelt es sich um ein Java Programme welches mit Maven gebildet wird. Die nötigen Abhängigkeiten zu Apache Flink würden mit Maven aufgelöst. Es wurde das WordCount Beispiel implementiert und ein CharCount. Das Mainprogramm ist [hier](https://github.com/se15m015/BLD.PAPP/blob/master/flink-example/src/main/java/at/se15m015/bld/count/Main.java). Die Tokenzier für Word- und CharCount liegen [hier](https://github.com/se15m015/BLD.PAPP/blob/master/flink-example/src/main/java/at/se15m015/bld/count/Tokenizer.java).
  
  Um das programm auszuführen einfach in den Ordner `flink-example\target` wechseln (`cd flink-example\target`) und anschließend folgenden befehl auszuführen: `java -jar flink-word-char-count.jar`. Java sollte installiert sein damit dies funktioniert.
 
@@ -75,7 +75,7 @@ Sie bekommen den Auftrag, sich mit einer Data Science Technologie zu arbeiten. N
 die ihnen auf dem ersten Blick am besten für Sie ersscheint und begründen Sie das!
 ~~~
 
-Ich würde als Data Science Technologie Python wählen. Da diese technologie sehr vielseitig eingesetzt werden kann und kann man sich schon in eine Technologie einliest, macht es sinn eine zu wählen, die vielseitig eingesetzt werden kann.
+Ich würde als Data Science Technologie Python wählen. Da diese technologie sehr vielseitig eingesetzt werden kann und wenn man sich schon in eine Technologie einliest, macht es sinn eine zu wählen, die vielseitig eingesetzt werden kann.
 
 
 ### Assignment 2: Technologien (4 Punkte)
@@ -111,7 +111,7 @@ Wenn Sie von einem Marketinginstitut angerufen werden, etc.
 **classification (supervised)** Bei classification geht es darum neue Beobachtungen in den eine Kategorie einzuordnen. Diese Einordnung wird auf grund von einem Trainingset vorgenommen. Dies bedeutet das die Trainningsdaten schon vor der Einordnung zur Verfügung stehen.
 Bsp: Email Spamfilter ("Spam", "non-Spam")
 
-**regression (supervised)** Bei Regression geht es wie bei der CLassification um die vorhersage von Daten. Aber im gegensatz zu classification werden bei regression keine Kategorien verwendet sondern konkrete Werte. Ein oft genanntes Beispiel ist das Verkaufsverhalten vo Kunden in Onlineshop.
+**regression (supervised)** Bei Regression geht es wie bei der Classification um die vorhersage von Daten. Aber im gegensatz zu classification werden bei regression keine Kategorien verwendet sondern konkrete Werte. Ein oft genanntes Beispiel ist das Verkaufsverhalten von Kunden in Onlineshop.
 
 **clustering (unsupervised)** Clustering ist ähnlich der classification, nur gibt es hier kein Trainingsset, also keine Labels. Die Daten werden nach einem, zuvor festgelegten Algorithmus groupiert (geclustert). Wird bei der statistischen Daten analyse eingesetzt. 
 
